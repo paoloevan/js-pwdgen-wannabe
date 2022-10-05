@@ -10,3 +10,8 @@ const cognomeUtente = prompt("Qual è il tuo cognome?");
 
 const colorePreferito = prompt("Qual è il tuo colore preferito?");
 
+// Scrivi sulla pagina nomecognomecolorepreferito22
+
+const currentYear = Number(2022);
+
+document.getElementById("password").innerHTML = nomeUtente + cognomeUtente + colorePreferito + (currentYear - 2000);
